@@ -1,52 +1,58 @@
-# 🧿 Projeto: Ícones de Mídia Social com Hover
+# ✨ Projeto: Ícones de Mídia Social com Hover
+
+<br>
 
 ## 📌 O que é o Projeto
 
 Este projeto consiste em uma interface limpa e responsiva que exibe ícones de mídias sociais com efeitos de *hover interativo* e *tooltip personalizada*, ideal para portfólios, landing pages ou aplicações web modernas.
 
----
+<br>
 
 ## 🎯 Objetivo do Projeto
 
 Criar um componente visual elegante que:
-•⁠  ⁠Centralize os principais ícones sociais em um layout uniforme.
-•⁠  ⁠Destaque o ícone com efeito ao passar o mouse (hover).
-•⁠  ⁠Exiba o nome da rede social em uma tooltip.
-•⁠  ⁠Sirva como base para reuso em projetos web diversos.
+<br>
+<br>•⁠  ⁠Centralize os principais ícones sociais em um layout uniforme.
+<br>•⁠  ⁠Destaque o ícone com efeito ao passar o mouse (hover).
+<br>•⁠  ⁠Exiba o nome da rede social em uma tooltip.
+<br>•⁠  ⁠Sirva como base para reuso em projetos web diversos.
 
----
+<br>
 
 ## 💬 Linguagens do Projeto
 
-•⁠  ⁠⁠ HTML5 ⁠
-•⁠  ⁠⁠ CSS3 ⁠
+<br>•⁠  ⁠⁠ HTML5 ⁠
+<br>•⁠  ⁠⁠ CSS3 ⁠
 
----
+<br>
 
 ## 🔍 Exemplos Visuais
 
-<p align="center">
-  <img src="/project-social-media-icons/examples/Social-Buttons-UI-Example.png " width="500" alt="Ícones padrão" />
+<p align="left">
+  <img src="./exemplos/Social-Buttons.png" width="300" alt="Ícones padrão" />
 </p>
 
-<p align="center">
-  <img src="/project-social-media-icons/examples/Social-Buttons-Facebook-Example.jpg" width="300" alt="Ícone com hover GitHub" />
+<p align="left">
+  <img src="./exemplos/Social-Buttons-Github.png" width="300" alt="Ícone com hover GitHub" />
 </p>
 
----
+<p align="left">
+  <img src="./exemplos/Social-Buttons-Instagram.png" width="300" alt="Ícone com hover GitHub" />
+</p>
+
+<br>
 
 ## 🛠️ Tecnologias Utilizadas
+<br>•⁠  ⁠*HTML5* – Estrutura dos elementos da página
+<br>•⁠  ⁠*CSS3* – Estilização, animações e responsividade
+<br>•⁠  ⁠*Font Google* e *SVGs personalizados* – Ícones sociais
+<br>•⁠  ⁠*Tooltip customizada em CSS*
 
-•⁠  ⁠*HTML5* – Estrutura dos elementos da página
-•⁠  ⁠*CSS3* – Estilização, animações e responsividade
-•⁠  ⁠*Font Awesome* ou *SVGs personalizados* – Ícones sociais
-•⁠  ⁠*Tooltip customizada em CSS*
-
----
+<br>
 
 ## 🚀 Funcionalidades
 
-•⁠  ⁠Ícones para as principais redes sociais:
+Ícones para as principais redes sociais:
   - Facebook
   - GitHub
   - Instagram
@@ -56,23 +62,24 @@ Criar um componente visual elegante que:
   - Mudança de fundo
   - Tooltip com nome da rede social
   - Destaque no ícone selecionado
-•⁠  ⁠Design centralizado, moderno e responsivo
+  - Design centralizado, moderno e responsivo
 
----
+<br>
 
 ## 📁 Estrutura dos Arquivos
 
-social-icons-hover/
-├── index.html
-├── style.css
-├── example/
-│ ├── icons-default.png
-│ └── icons-hover.png
-├── assets/
-│ └── icons/ (opcional)
-├── README.md
+Project-Social-Media-Icons/ >
+index.html >
+style.css >
+example/ >
+Social-Buttons-Ui.png >
+Social-Buttons-Facebook.png >
+assets/ >
+facebook.png >
+README.md
 
----
+<br>
 
-Sinta-se à vontade para clonar, customizar ou contribuir!
-Feito com 💜 por [gischumacher3](https://github.com/gischumacher3)
+*Sinta-se à vontade para clonar, customizar ou contribuir!*
+<br>
+*Feito com 💜 por [gischumacher3](https://github.com/gischumacher3)*
