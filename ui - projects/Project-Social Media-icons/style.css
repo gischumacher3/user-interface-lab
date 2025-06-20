@@ -1,0 +1,172 @@
+:root {
+    --bg: #f8f8ff;
+    --facebook: #1877f2;
+    --github: #24292E;
+    --instagram: #e4405f;
+    --linkedin: #0177B5;
+    --x: #24292E;
+}
+
+/* Garante 100% altura para html e body */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background: var(--bg);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    list-style: none;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.wrapper .icon {
+    position: relative;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+    transition: background-color 0.3s ease;
+}
+
+.wrapper .icon img {
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+    transition: filter 0.3s ease, transform 0.3s ease;
+    filter: brightness(0) saturate(100%); /* deixa a imagem preta */
+}
+
+.wrapper .icon:hover img {
+    transform: scale(1.1); /* aumenta a imagem no hover */
+}
+
+.wrapper .tooltip {
+    position: absolute;
+    top: -40px;
+    padding: 6px 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    font-size: 0.75rem;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.3s;
+}
+
+.wrapper .tooltip::before {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    width: 10px;
+    height: 10px;
+    background: #fff;
+}
+
+.wrapper .icon:hover .tooltip {
+    opacity: 1;
+    top: -50px;
+}
+
+/* Hover: muda fundo, texto da tooltip e troca imagem para versão branca */
+
+/* Facebook */
+.wrapper .facebook:hover {
+    background-color: var(--facebook);
+}
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
+    background-color: var(--facebook);
+    color: #fff;
+}
+.wrapper .facebook:hover img {
+    content: url('assets/facebook-white.svg');
+    filter: none;
+}
+
+/* GitHub */
+.wrapper .github:hover {
+    background-color: var(--github);
+}
+.wrapper .github:hover .tooltip,
+.wrapper .github:hover .tooltip::before {
+    background-color: var(--github);
+    color: #fff;
+}
+.wrapper .github:hover img {
+    content: url('assets/github-white.svg');
+    filter: none;
+}
+
+/* Instagram */
+.wrapper .instagram:hover {
+    background-color: var(--instagram);
+}
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+    background-color: var(--instagram);
+    color: #fff;
+}
+.wrapper .instagram:hover img {
+    content: url('assets/instagram-white.svg');
+    filter: none;
+}
+
+/* LinkedIn */
+.wrapper .linkedin:hover {
+    background-color: var(--linkedin);
+}
+.wrapper .linkedin:hover .tooltip,
+.wrapper .linkedin:hover .tooltip::before {
+    background-color: var(--linkedin);
+    color: #fff;
+}
+.wrapper .linkedin:hover img {
+    content: url('assets/linkedin-white.svg');
+    filter: none;
+}
+
+/* X */
+.wrapper .x:hover {
+    background-color: var(--x);
+}
+.wrapper .x:hover .tooltip,
+.wrapper .x:hover .tooltip::before {
+    background-color: var(--x);
+    color: #fff;
+}
+.wrapper .x:hover img {
+    content: url('assets/x-white.svg');
+    filter: none;
+}
+
+/* Responsividade */
+@media (max-width: 500px) {
+    .wrapper .icon {
+        width: 3.2rem;
+        height: 3.2rem;
+    }
+    .wrapper .tooltip {
+        font-size: 0.65rem;
+    }
+}
