@@ -32,19 +32,15 @@ O projeto exibe cards informativos com dados resumidos e um gráfico de linha qu
 
 ## 🔍 Exemplos Visuais
 
-<p align="center">
-  <img src="examples/dashboard-light-mode.png" alt="Dashboard Modo Claro" width="700"/>
+<p align="left">
+  <img src="Exemplos/image.png" alt="Dashboard Modo Claro" width="700"/>
 </p>
 
-<p align="center">
-  <img src="examples/dashboard-dark-mode.png" alt="Dashboard Modo Escuro" width="700"/>
+<p align="left">
+  <img src="Exemplos/image copy.png" alt="Dashboard Modo Escuro" width="700"/>
 </p>
 
-<p align="center">
-  <img src="examples/dashboard-graph-interaction.gif" alt="Interação com o gráfico" width="700"/>
-</p>
-
----
+<br>
 
 ## 📁 Estrutura do Projeto
 
