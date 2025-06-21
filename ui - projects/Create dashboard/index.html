@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="header-left">
+    <h1>Dashboard</h1>
+    <p class="subtitle">Visão geral dos dados de 2025</p>
+  </div>
+  <div class="header-controls">
+    <button id="exportBtn">Exportar CSV</button>
+    <button id="toggleTheme">Modo Escuro</button>
+  </div>
+</header>
+
+<main>
+  <section class="dashboard">
+    <div class="card active" data-key="usuarios">
+      <h2>📈 Crescimento de Usuários</h2>
+      <div class="value">5.672</div>
+      <div class="change up">▲ 9.7%</div>
+      <div class="note">Desde o mês passado</div>
+    </div>
+
+    <div class="card" data-key="receita">
+      <h2>💰 Faturamento Mensal (R$)</h2>
+      <div class="value">R$ 15.320</div>
+      <div class="change down">▼ 2.3%</div>
+      <div class="note">Desde o mês passado</div>
+    </div>
+
+    <div class="card" data-key="vendas">
+      <h2>🛒 Total de Vendas</h2>
+      <div class="value">1.245</div>
+      <div class="change up">▲ 4.1%</div>
+      <div class="note">Desde o mês passado</div>
+    </div>
+
+    <div class="card" data-key="clientes">
+      <h2>🤝 Clientes Ativos</h2>
+      <div class="value">3.829</div>
+      <div class="change up">▲ 5.5%</div>
+      <div class="note">Desde o mês passado</div>
+    </div>
+
+    <div class="card" data-key="financeiro">
+      <h2>🏦 Resultado Financeiro</h2>
+      <div class="value">R$ 52.430</div>
+      <div class="change up">▲ 6.8%</div>
+      <div class="note">Desde o mês passado</div>
+    </div>
+
+    <div class="card" data-key="movimentacoes">
+      <h2>🔄 Operações Realizadas</h2>
+      <div class="value">1.120</div>
+      <div class="change down">▼ 1.7%</div>
+      <div class="note">Desde o mês passado</div>
+    </div>
+  </section>
+
+  <section class="chart-container">
+    <h3 id="chartTitle">Crescimento de Usuários do ano 2025</h3>
+    <canvas id="mainChart"></canvas>
+    <p class="chart-label" id="chartLabel">Crescimento de Usuários nos últimos 12 meses</p>
+  </section>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

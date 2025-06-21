@@ -1,0 +1,207 @@
+:root {
+  --primary: #0077b6;
+  --primary-light: #0096c7;
+  --bg-light: #f5f8fb;
+  --card-bg-light: #fff;
+  --text-light: #023047;
+  --text-muted-light: #555;
+  --border-light: #b0c4de;
+  --success: #4caf50;
+  --error: #e63946;
+
+  --bg-dark: #121b26;
+  --card-bg-dark: #1e2a3a;
+  --text-dark: #d1d9e6;
+  --text-muted-dark: #a1a9b8;
+  --border-dark: #384659;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: var(--bg-light);
+  color: var(--text-light);
+  min-height: 100vh;
+  padding: 2rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark {
+  background: var(--bg-dark);
+  color: var(--text-dark);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.header-left {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: var(--primary);
+}
+
+.subtitle {
+  margin: 0;
+  color: var(--text-muted-light);
+}
+
+body.dark .subtitle {
+  color: var(--text-muted-dark);
+}
+
+.header-controls {
+  display: flex;
+  gap: 1rem;
+}
+
+.header-controls button {
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.header-controls button:hover {
+  background: var(--primary-light);
+}
+
+body.dark .header-controls button {
+  background: var(--primary-light);
+  color: var(--bg-dark);
+}
+
+body.dark .header-controls button:hover {
+  background: var(--primary);
+  color: white;
+}
+
+.dashboard {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.card {
+  background: var(--card-bg-light);
+  border-radius: 1rem;
+  padding: 1.2rem 1.5rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  border: 1px solid var(--border-light);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+body.dark .card {
+  background: var(--card-bg-dark);
+  border: 1px solid var(--border-dark);
+}
+
+.card:hover,
+.card.active {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  border-color: var(--primary);
+}
+
+.card h2 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: var(--primary);
+}
+
+.value {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.change {
+  font-weight: 600;
+}
+
+.change.up {
+  color: var(--success);
+}
+
+.change.down {
+  color: var(--error);
+}
+
+.note {
+  color: var(--text-muted-light);
+  font-size: 0.85rem;
+  text-align: right;
+}
+
+body.dark .note {
+  color: var(--text-muted-dark);
+}
+
+.chart-container {
+  background: var(--card-bg-light);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  margin-top: 2rem;
+}
+
+body.dark .chart-container {
+  background: var(--card-bg-dark);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6);
+}
+
+.chart-container h3 {
+  margin: 0 0 1rem 0;
+  text-align: center;
+  color: var(--primary);
+}
+
+body.dark .chart-container h3 {
+  color: var(--primary-light);
+}
+
+.chart-label {
+  margin-top: 1rem;
+  text-align: center;
+  color: var(--primary);
+}
+
+body.dark .chart-label {
+  color: var(--primary-light);
+}
+
+canvas {
+  width: 100% !important;
+  height: 350px !important;
+}
+
+@media (max-width: 900px) {
+  .dashboard {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .dashboard {
+    grid-template-columns: 1fr;
+  }
+}
