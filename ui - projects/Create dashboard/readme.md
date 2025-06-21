@@ -2,9 +2,11 @@
 
 ## 📌 Sobre o Projeto
 
-Dashboard interativo desenvolvido para apresentar indicadores chave de uma empresa com visual moderno, responsivo e modo claro/escuro. O projeto exibe cards informativos com dados resumidos e um gráfico de linha que mostra a evolução mensal ao longo de 12 meses, destacando variações com pontos coloridos (verde para aumento, vermelho para queda).
+Dashboard interativo desenvolvido para apresentar indicadores chave de uma empresa com visual moderno, responsivo e modo claro/escuro. 
 
----
+O projeto exibe cards informativos com dados resumidos e um gráfico de linha que mostra a evolução mensal ao longo de 12 meses, destacando variações com pontos coloridos (verde para aumento, vermelho para queda).
+
+<br>
 
 ## 🎯 Objetivos
 
@@ -15,7 +17,7 @@ Dashboard interativo desenvolvido para apresentar indicadores chave de uma empre
 - Exportar dados apresentados para arquivo CSV.  
 - Design responsivo para diferentes tamanhos de tela.
 
----
+<br>
 
 ## 🧩 Funcionalidades
 
@@ -25,7 +27,8 @@ Dashboard interativo desenvolvido para apresentar indicadores chave de uma empre
 - Botões para exportar dados em CSV e alternar tema claro/escuro.  
 - Layout organizado com títulos e subtítulos alinhados à esquerda, botões alinhados à direita.  
 - Design minimalista e moderno com cores harmônicas.
----
+
+<br>
 
 ## 🔍 Exemplos Visuais
 
@@ -45,15 +48,15 @@ Dashboard interativo desenvolvido para apresentar indicadores chave de uma empre
 
 ## 📁 Estrutura do Projeto
 
-dashboard-interativo/
-├── index.html # Estrutura da página e cards
-├── style.css # Estilos, layout, responsividade e modo escuro
-├── script.js # Lógica JS para gráficos, interação e temas
-├── README.md # Documentação do projeto
-├── examples/ # Exemplos visuais (imagens e gifs)
-└── assets/ # (Opcional) imagens e ícones adicionais
+dashboard-interativo
 
----
+- index.html # Estrutura da página e cards
+- style.css # Estilos, layout, responsividade e modo escuro
+- script.js # Lógica JS para gráficos, interação e temas
+- README.md # Documentação do projeto
+- examples/ # Exemplos visuais (imagens e gifs)
+
+<br>
 
 ## 🚀 Como Usar
 
@@ -68,22 +71,22 @@ dashboard-interativo/
 
 5. Use o botão "Modo Escuro" para alternar o tema visual.
 
----
+<br>
 
 ## 🎨 Personalização
 
 - As cores, labels e dados podem ser alterados facilmente no arquivo `script.js`, dentro do objeto `chartDataSets`.
 - O CSS está organizado para facilitar ajustes no layout e cores, incluindo modo escuro.
 
----
+<br>
 
 ## 👩‍💻 Sobre o Autor
 
 Feito com 💜 por [Giovana Nunes Schumacher](https://github.com/gischumacher3) — desenvolvedora web e entusiasta de interfaces intuitivas e modernas.
 
----
+<br>
 
 ## 📬 Contato
 
 - GitHub: [github.com/gischumacher3](https://github.com/gischumacher3)
-- LinkedIn: [linkedin.com/in/gischumacher3](https://linkedin.com/in/gischumacher3)
+- LinkedIn: [linkedin.com/in/giovana-schumacher](https://linkedin.com/in/giovana-schumacher)
