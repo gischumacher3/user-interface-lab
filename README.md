@@ -1,2 +1,6 @@
 # user-interface-lab
-💻 Repositório dedicado a experimentos e criações de frontend, interfaces web modernas e experiências de usuário envolventes. Desenvolvido com HTML, CSS, JavaScript e frameworks atuais para soluções digitais inovadoras.
+💡 Este repositório reúne experimentos e projetos focados no desenvolvimento de interfaces web modernas, acessíveis e visualmente atraentes. 
+
+<br>
+
+Utiliza HTML, CSS, JavaScript e os principais frameworks da atualidade para criar experiências de usuário envolventes e soluções digitais inovadoras. 
