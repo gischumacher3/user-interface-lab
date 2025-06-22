@@ -1,11 +1,11 @@
 # ☁️ Componente de Upload de Arquivos
 
 ## 📌 Sobre o Projeto  
-Componente web moderno e responsivo para upload de arquivos, ideal para aplicações SaaS, formulários e sistemas administrativos.
+Componente moderno e responsivo para upload de arquivos, com suporte a clique ou arraste (drag & drop), mensagens visuais interativas (pop-ups) e validações nativas.
 
 Conta com uma interface limpa, suporte a clique e arraste, feedbacks visuais com pop-ups animados, e ícones estilizados do Bootstrap, proporcionando uma experiência mais clara e agradável para o usuário.
 
----
+<br>
 
 ## 🎯 Objetivos  
 - Permitir o upload de arquivos com um design limpo e acessível.  
@@ -14,7 +14,7 @@ Conta com uma interface limpa, suporte a clique e arraste, feedbacks visuais com
 - Ser reutilizável em múltiplos contextos com fácil personalização.  
 - Garantir compatibilidade com diferentes tamanhos de tela (responsividade).  
 
----
+<br>
 
 ## 🧩 Funcionalidades  
 - Área de upload com suporte a **clique** e **arraste**.  
@@ -25,16 +25,15 @@ Conta com uma interface limpa, suporte a clique e arraste, feedbacks visuais com
 - Ícone estilizado do Bootstrap 5: `bi-cloud-arrow-up`.  
 - Design **leve**, **moderno** e **responsivo**.  
 
----
+<br>
 
-## 🔍 Exemplos Visuais  
-Upload com Arquivo Selecionado  
-Pop-up de Sucesso ao Salvar  
-Confirmação de Cancelamento  
+## 🔍 Exemplos Visuais   
 
-*(As imagens estão na pasta `examples/`, mas não estão incluídas neste repositório.)*
+<p align="left">
+  <img src="images/image.png" alt="Exemplo do Componente de Upload" width="600"/>
+</p>
 
----
+<br>
 
 ## 📁 Estrutura do Projeto  
 ```
@@ -46,7 +45,7 @@ upload-file-component/
 ├── examples/         # Imagens de exemplo (não incluídas)
 ```
 
----
+<br>
 
 ## 🚀 Como Usar  
 1. Clone o repositório:  
@@ -58,20 +57,20 @@ upload-file-component/
 4. Clique em "Salvar" para realizar o envio simulado.  
 5. Use "Cancelar" para remover a seleção e visualizar a confirmação.
 
----
+<br>
 
 ## 🎨 Personalização  
-- As **cores**, **tamanhos**, **posicionamentos** e animações podem ser modificadas no arquivo `style.css`.  
+- As **cores**, **tamanhos**, **posicionamentos** e **animações** podem ser modificadas no arquivo `style.css`.  
 - As mensagens e comportamentos estão organizados em `script.js`, facilitando ajustes conforme a necessidade do seu projeto.  
 - Você pode substituir os ícones do Bootstrap por outros disponíveis na [biblioteca oficial](https://icons.getbootstrap.com/).
 
----
+<br>
 
-## 👨‍💻 Sobre o Autor  
-Feito com 💜 por Giovana Nunes Schumacher — desenvolvedora web e entusiasta de interfaces intuitivas e modernas.
+## 👩‍💻 Sobre o Autor  
+Feito com 💜 por **Giovana Nunes Schumacher** — desenvolvedora web e entusiasta de interfaces intuitivas e modernas.
 
----
+<br>
 
 ## 📬 Contato  
-GitHub: github.com/gischumacher3
-LinkedIn: linkedin.com/in/giovana-schumacher
+GitHub: [github.com/gischumacher3](https://github.com/gischumacher3)  
+LinkedIn: [linkedin.com/in/giovana-schumacher](https://linkedin.com/in/giovana-schumacher)
