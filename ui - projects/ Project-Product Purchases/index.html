@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Product Purchases</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <article class="table-widget">
+    <div class="caption">
+      <h2>
+        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M7 18c-1.104 0-2 .896-2 2s.896 2 2 2 2-.896 2-2-.896-2-2-2zm10 0c-1.104 0-2 .896-2 2s.896 2 2 2 2-.896 2-2-.896-2-2-2zm-14-3h16l-2-7H7l-2-4H1v2h2l3.6 7.59-1.35 2.45c-.16.29-.25.62-.25.96 0 1.104.896 2 2 2h12v-2H7z"/>
+        </svg>
+        Product Purchases
+      </h2>
+      <div class="actions">
+        <button class="modern-btn add-user-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 5v14m7-7H5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          Add User
+        </button>
+        <button class="modern-btn dark-mode-toggle" aria-label="Toggle dark mode" title="Toggle Dark Mode">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1111.21 3a7 7 0 009.79 9.79z"/>
+          </svg>
+        </button>
+        <button class="modern-btn export-btn" aria-label="Export data" title="Export">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M6 2h9l5 5v15a2 2 0 01-2 2H6a2 2 0 01-2-2V4a2 2 0 012-2zM14 3.5V9h5.5L14 3.5z"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <section class="summary">
+      <div class="summary-item">
+        <strong>Total Orders:</strong> <span id="total-orders">0</span>
+      </div>
+      <div class="summary-item">
+        <strong>Paid:</strong> <span id="total-paid">0</span>
+      </div>
+      <div class="summary-item">
+        <strong>Pending:</strong> <span id="total-pending">0</span>
+      </div>
+      <div class="summary-item">
+        <strong>Canceled:</strong> <span id="total-cancelled">0</span>
+      </div>
+      <div class="summary-chart">
+        <div class="bar paid" title="Paid"></div>
+        <div class="bar pending" title="Pending"></div>
+        <div class="bar cancelled" title="Canceled"></div>
+      </div>
+    </section>
+
+    <section class="date-filter">
+      <label>
+        From: <input type="date" id="date-from" />
+      </label>
+      <label>
+        To: <input type="date" id="date-to" />
+      </label>
+      <button id="clear-date-filter">Clear</button>
+    </section>
+
+    <table id="team-table" class="resizable">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Purchase Date</th>
+          <th>Status</th>
+          <th>User</th>
+          <th>Order Type</th>
+          <th>Value</th>
+          <th>Actions</th>
+        </tr>
+        <tr class="filters">
+          <th><input type="text" placeholder="Search ID" /></th>
+          <th></th>
+          <th><input type="text" placeholder="Search Status" /></th>
+          <th><input type="text" placeholder="Search User" /></th>
+          <th><input type="text" placeholder="Search Order Type" /></th>
+          <th><input type="text" placeholder="Search Value" /></th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Dados gerados dinamicamente -->
+      </tbody>
+    </table>
+
+    <footer>0 Row Results</footer>
+  </article>
+
+  <!-- Modal Adicionar Usuário -->
+  <div id="add-user-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <h3>Add New User</h3>
+      <form id="add-user-form">
+        <label>ID: <input type="text" name="id" required></label>
+        <label>Date: <input type="datetime-local" name="date" required></label>
+        <label>Status:
+          <select name="status">
+            <option value="Paid">Paid</option>
+            <option value="Pending">Pending</option>
+            <option value="Canceled">Canceled</option>
+          </select>
+        </label>
+        <label>User Name: <input type="text" name="user" required></label>
+        <label>Avatar URL: <input type="url" name="avatar" required></label>
+        <label>Order Type: <input type="text" name="orderType" required></label>
+        <label>Value: <input type="number" name="value" required></label>
+        <label>Estoque: <input type="number" name="estoque" required></label>
+        <label>Produto: <input type="text" name="produto" required></label>
+        <button type="submit" class="modern-btn">Add</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
