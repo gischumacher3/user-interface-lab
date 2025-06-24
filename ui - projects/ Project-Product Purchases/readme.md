@@ -2,11 +2,13 @@
 
 ## 📌 Sobre o Projeto  
 Painel moderno e responsivo para visualização e gestão de compras de produtos.  
+
 Conta com filtros por colunas, status e datas, estatísticas resumidas, modo escuro, layout adaptável e interações otimizadas para facilitar o controle de pedidos e usuários em tempo real.
+<br>
 
 Interface clara, com filtros funcionais, edição inline, modo escuro elegante e modal animado para adicionar usuários, garantindo uma experiência visual moderna, eficiente e intuitiva.
 
----
+<br>
 
 ## 🎯 Objetivos
 
@@ -16,7 +18,7 @@ Interface clara, com filtros funcionais, edição inline, modo escuro elegante e
 - Garantir responsividade total para uso em desktops e dispositivos móveis.
 - Tornar o projeto 100% em HTML, CSS e JS puros, sem dependências externas.
 
----
+<br>
 
 ## 🧩 Funcionalidades
 
@@ -32,15 +34,21 @@ Interface clara, com filtros funcionais, edição inline, modo escuro elegante e
 - Edição inline de campos da tabela.
 - Atualização automática dos dados (auto-refresh).
 
----
+<br>
 
 ## 🔍 Exemplos Visuais
 
 Exemplo do Painel de Compras:
+<br>
 
-![Exemplo de Tabela](examples/tabela-preview.png)
+<p align="left">
+  <img src="images/exemplo1.png" alt="Exemplo do Componente de Upload" width="600"/>
+  <img src="images/exemplo2.png" alt="Exemplo do Componente de Upload" width="600"/>
+  <img src="images/exemplo3.png" alt="Exemplo do Componente de Upload" width="600"/>
+  <img src="images/exemplo4.png" alt="Exemplo do Componente de Upload" width="600"/>
+</p>
 
----
+<br>
 
 ## 📁 Estrutura do Projeto
 
@@ -53,7 +61,7 @@ product-purchases-dashboard/
 ├── assets/            # Avatares e ícones utilizados
 ```
 
----
+<br>
 
 ## 🚀 Como Usar
 
@@ -71,7 +79,7 @@ git clone https://github.com/gischumacher3/product-purchases-dashboard.git
 
 5. Use o botão de modo escuro para alternar entre dark/light instantaneamente.
 
----
+<br>
 
 ## 🎨 Personalização
 
@@ -79,13 +87,13 @@ git clone https://github.com/gischumacher3/product-purchases-dashboard.git
 - As **interações, filtros e lógica do modal** podem ser customizadas no `script.js`.
 - O layout e os campos podem ser modificados diretamente no `index.html`, mantendo a estrutura modular.
 
----
+<br>
 
 ## 👩‍💻 Sobre a Autora
 
 Feito com 💜 por **Giovana Nunes Schumacher** — desenvolvedora web e entusiasta de interfaces funcionais, limpas e acessíveis.
 
----
+<br>
 
 ## 📬 Contato
 
