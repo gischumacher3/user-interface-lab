@@ -33,12 +33,12 @@ Ideal para projetos que necessitam de uma base front-end sólida para autentica�
 <br>
 
 ## 📸 Exemplos Visuais  
+<br>
 
-> Substitua os links abaixo por capturas reais da interface:
-
-| Tela de Login | Tela de Cadastro | Criação de Senha | Dark Mode |
-|---------------|------------------|------------------|-----------|
-| ![login](https://via.placeholder.com/300x180?text=Login) | ![cadastro](https://via.placeholder.com/300x180?text=Cadastro) | ![senha](https://via.placeholder.com/300x180?text=Senha+Forte) | ![dark](https://via.placeholder.com/300x180?text=Modo+Escuro) |
+<p align="left">
+  <img src="images/image1.png" alt="Exemplo do Componente de Upload" width="600"/>
+  <img src="images/image2.png" alt="Exemplo do Componente de Upload" width="600"/>
+</p>
 
 <br>
 
