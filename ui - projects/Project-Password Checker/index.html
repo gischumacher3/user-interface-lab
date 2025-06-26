@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Verificação de Senha</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <button id="toggle-theme" class="theme-toggle" title="Alternar tema">
+    Tema Claro
+  </button>
+
+  <div class="box">
+    <!-- Abas no topo, centralizadas -->
+    <div class="tab-header">
+      <button class="tab-btn active" data-tab="login">Login</button>
+      <button class="tab-btn" data-tab="register">primeiro acesso</button>
+      <button class="tab-btn" data-tab="create">Criar Senha</button>
+    </div>
+
+    <!-- Conteúdo da aba Login -->
+    <div class="tab-content active" id="login">
+      <div class="input_wrapper">
+        <label for="login-email" class="input_label">E-mail <span class="required">*</span></label>
+        <input id="login-email" type="email" class="input_field" placeholder="Digite seu e-mail" />
+        <div class="field-criteria">Informe um e-mail válido</div>
+      </div>
+
+      <div class="input_wrapper">
+        <label for="login-password" class="input_label">Senha <span class="required">*</span></label>
+        <input id="login-password" type="password" class="input_field" placeholder="Digite sua senha" />
+        <div class="field-criteria">Mínimo de 8 caracteres</div>
+      </div>
+
+      <button class="save-button">Entrar</button>
+    </div>
+
+    <!-- Conteúdo da aba Cadastrar-se -->
+    <div class="tab-content" id="register">
+      <div class="input_wrapper">
+        <label for="register-name" class="input_label">Nome Completo <span class="required">*</span></label>
+        <input id="register-name" type="text" class="input_field" placeholder="Digite seu nome" />
+        <div class="field-criteria">Preencha com seu nome completo</div>
+      </div>
+
+      <div class="input_wrapper">
+        <label for="register-email" class="input_label">E-mail <span class="required">*</span></label>
+        <input id="register-email" type="email" class="input_field" placeholder="Digite seu e-mail" />
+        <div class="field-criteria">Informe um e-mail válido</div>
+      </div>
+
+      <div class="input_wrapper">
+        <label for="register-password" class="input_label">Senha <span class="required">*</span></label>
+        <input id="register-password" type="password" class="input_field" placeholder="Crie uma senha" />
+        <div class="field-criteria">Deve conter letras, números e 8+ caracteres</div>
+      </div>
+
+      <button class="save-button">Cadastrar</button>
+    </div>
+
+    <!-- Conteúdo da aba Criar Senha -->
+    <div class="tab-content" id="create">
+      <div class="input_wrapper">
+        <label for="password" class="input_label">Nova Senha <span class="required">*</span></label>
+        <input id="password" type="password" class="input_field" placeholder="Sua nova senha" />
+        <span id="toggleIcon" class="input_icon" title="Mostrar/Ocultar senha">
+          <!-- Ícone de olho -->
+          <svg
+            id="icon-eye"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            stroke="#e0e0e0">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7
+              -1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+          </svg>
+        </span>
+        <div class="field-criteria">Sua senha precisa atender aos critérios abaixo</div>
+      </div>
+
+      <!-- Repetir senha -->
+      <div class="input_wrapper">
+        <label for="repeat-password" class="input_label">Repetir Senha <span class="required">*</span></label>
+        <input id="repeat-password" type="password" class="input_field" placeholder="Digite novamente a senha" />
+        <div class="field-criteria">As senhas devem ser iguais</div>
+      </div>
+
+      <div class="password-strength">
+        <p id="feedbackText">Digite sua senha</p>
+        <div class="progress">
+          <div id="password-strength" class="progress-bar" role="progressbar" style="width: 0%"></div>
+        </div>
+
+        <ul class="password-strength-items">
+          <li class="low-upper-case">❌ Letra minúscula e maiúscula</li>
+          <li class="number">❌ Pelo menos um número</li>
+          <li class="special-char">❌ Caractere especial (!@#...)</li>
+          <li class="min-length">❌ Mínimo de 8 caracteres</li>
+        </ul>
+      </div>
+
+      <button id="save-password" class="save-button" disabled>Salvar Senha</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

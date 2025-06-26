@@ -1,0 +1,92 @@
+# 🔐 Interface de Autenticação com Validação e Tema Dinâmico
+
+## 📌 Sobre o Projeto  
+Interface moderna e funcional de autenticação com **abas organizadas** para login, cadastro e criação de senha.
+
+O projeto traz **validações em tempo real**, feedbacks visuais, alternância de tema claro/escuro, verificação de força da senha e uma experiência fluida, intuitiva e responsiva para o usuário.
+
+Ideal para projetos que necessitam de uma base front-end sólida para autenticação de usuários.
+
+---
+
+## 🎯 Objetivos  
+
+- Oferecer uma interface de autenticação com múltiplas funcionalidades integradas.  
+- Permitir **validação imediata** de campos e verificação de senha segura.  
+- Garantir **modo escuro e claro** com alternância suave.  
+- Proporcionar uma **experiência de usuário moderna**, acessível e responsiva.  
+- Criado 100% com **HTML, CSS e JavaScript puros**, sem dependências externas.
+
+---
+
+## 🧩 Funcionalidades  
+
+- Abas para **Login**, **Cadastro** e **Criação de Senha**  
+- **Validação em tempo real** de e-mail, nome e senhas  
+- Indicador de **força da senha** com critérios visuais e barra de progresso  
+- Alternância entre **tema claro e escuro** com um clique  
+- Ícone de **mostrar/ocultar senha** integrado ao campo  
+- Mensagens de validação com **cores, ícones e bordas**  
+- Layout responsivo com design **glassmorphism**  
+- Campos com **estados visuais (válido/inválido)** bem definidos  
+
+---
+
+## 📸 Exemplos Visuais  
+
+> Substitua os links abaixo por capturas reais da interface:
+
+| Tela de Login | Tela de Cadastro | Criação de Senha | Dark Mode |
+|---------------|------------------|------------------|-----------|
+| ![login](https://via.placeholder.com/300x180?text=Login) | ![cadastro](https://via.placeholder.com/300x180?text=Cadastro) | ![senha](https://via.placeholder.com/300x180?text=Senha+Forte) | ![dark](https://via.placeholder.com/300x180?text=Modo+Escuro) |
+
+---
+
+## 📁 Estrutura do Projeto
+
+```
+auth-interface/
+├── index.html         # Estrutura principal da interface
+├── style.css          # Estilização completa e suporte a temas
+├── script.js          # Lógica de abas, validação e interações
+├── assets/
+│   └── Fundo.jpg      # Imagem de fundo usada na interface
+├── README.md          # Documentação do projeto
+```
+
+---
+
+## 🚀 Como Usar  
+
+1. Clone o repositório:  
+```
+git clone https://github.com/gischumacher3/auth-interface.git
+```
+
+2. Acesse o projeto:
+```
+cd auth-interface
+```
+
+3. Abra o arquivo `index.html` no seu navegador e utilize normalmente.
+
+---
+
+## 🎨 Personalização  
+
+- Cores, fontes, sombras e temas estão configuradas via **CSS custom properties** no `style.css`.  
+- A lógica de validação, alternância de abas e modo escuro está no `script.js`.  
+- A estrutura visual e campos podem ser alterados diretamente no `index.html`.
+
+---
+
+## 👩‍💻 Sobre a Autora  
+
+Feito com 💜 por **Giovana Nunes Schumacher** — desenvolvedora web apaixonada por interfaces modernas, acessíveis e funcionais.
+
+---
+
+## 📬 Contato  
+
+- GitHub: [github.com/gischumacher3](https://github.com/gischumacher3)  
+- LinkedIn: [linkedin.com/in/giovana-schumacher](https://linkedin.com/in/giovana-schumacher)
