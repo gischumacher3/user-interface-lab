@@ -7,7 +7,7 @@ O projeto traz **validações em tempo real**, feedbacks visuais, alternância d
 
 Ideal para projetos que necessitam de uma base front-end sólida para autenticação de usuários.
 
----
+<br>
 
 ## 🎯 Objetivos  
 
@@ -17,7 +17,7 @@ Ideal para projetos que necessitam de uma base front-end sólida para autentica�
 - Proporcionar uma **experiência de usuário moderna**, acessível e responsiva.  
 - Criado 100% com **HTML, CSS e JavaScript puros**, sem dependências externas.
 
----
+<br>
 
 ## 🧩 Funcionalidades  
 
@@ -30,7 +30,7 @@ Ideal para projetos que necessitam de uma base front-end sólida para autentica�
 - Layout responsivo com design **glassmorphism**  
 - Campos com **estados visuais (válido/inválido)** bem definidos  
 
----
+<br>
 
 ## 📸 Exemplos Visuais  
 
@@ -40,7 +40,7 @@ Ideal para projetos que necessitam de uma base front-end sólida para autentica�
 |---------------|------------------|------------------|-----------|
 | ![login](https://via.placeholder.com/300x180?text=Login) | ![cadastro](https://via.placeholder.com/300x180?text=Cadastro) | ![senha](https://via.placeholder.com/300x180?text=Senha+Forte) | ![dark](https://via.placeholder.com/300x180?text=Modo+Escuro) |
 
----
+<br>
 
 ## 📁 Estrutura do Projeto
 
@@ -54,7 +54,7 @@ auth-interface/
 ├── README.md          # Documentação do projeto
 ```
 
----
+<br>
 
 ## 🚀 Como Usar  
 
@@ -70,7 +70,7 @@ cd auth-interface
 
 3. Abra o arquivo `index.html` no seu navegador e utilize normalmente.
 
----
+<br>
 
 ## 🎨 Personalização  
 
@@ -78,13 +78,13 @@ cd auth-interface
 - A lógica de validação, alternância de abas e modo escuro está no `script.js`.  
 - A estrutura visual e campos podem ser alterados diretamente no `index.html`.
 
----
+<br>
 
 ## 👩‍💻 Sobre a Autora  
 
 Feito com 💜 por **Giovana Nunes Schumacher** — desenvolvedora web apaixonada por interfaces modernas, acessíveis e funcionais.
 
----
+<br>
 
 ## 📬 Contato  
 
