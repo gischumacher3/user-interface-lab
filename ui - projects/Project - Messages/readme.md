@@ -7,7 +7,7 @@ Conta com campos otimizados, avatar padrão, suporte a upload de imagens, modo e
 
 Experiência visual leve, foco em usabilidade, feedback instantâneo e interface intuitiva — tudo em HTML, CSS e JS puro, sem frameworks.
 
----
+<br>
 
 ## 🎯 Objetivos
 
@@ -17,7 +17,7 @@ Experiência visual leve, foco em usabilidade, feedback instantâneo e interface
 - Garantir responsividade total para uso em qualquer dispositivo.
 - Manter o projeto 100% vanilla (HTML, CSS e JS), simples de integrar e personalizar.
 
----
+<br>
 
 ## 🧩 Funcionalidades
 
@@ -32,7 +32,7 @@ Experiência visual leve, foco em usabilidade, feedback instantâneo e interface
 - Possibilidade de remover comentários.
 - Feedback visual para cada ação do usuário.
 
----
+<br>
 
 ## 🔍 Exemplos Visuais
 
@@ -42,7 +42,7 @@ Exemplo do Componente de Comentários:
 
 *(Adicione outros prints nesta seção, caso desejar)*
 
----
+<br>
 
 ## 📁 Estrutura do Projeto
 
@@ -55,7 +55,7 @@ comment-box/
 ├── README.md           # Documentação do projeto
 ```
 
----
+<br>
 
 ## 🚀 Como Usar
 
@@ -67,7 +67,7 @@ comment-box/
 3. Preencha o nome, escreva seu comentário, (opcionalmente, adicione um arquivo/imagem) e clique em **Publicar**.
 4. Use o botão de modo escuro para alternar entre dark/light instantaneamente.
 
----
+<br>
 
 ## 🎨 Personalização
 
@@ -75,13 +75,13 @@ comment-box/
 - **Lógica de interação** (validação, exclusão, upload) pode ser ajustada em `script.js`.
 - **Estrutura e campos** podem ser modificados diretamente em `index.html` para se adequar ao seu projeto.
 
----
+<br>
 
 ## 👩‍💻 Sobre a Autora
 
 Feito com 💜 por Giovana Nunes Schumacher — desenvolvedora web e entusiasta de interfaces funcionais, limpas e acessíveis.
 
----
+<br>
 
 ## 📬 Contato
 
