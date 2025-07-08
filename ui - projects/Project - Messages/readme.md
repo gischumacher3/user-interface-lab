@@ -37,11 +37,11 @@ Experiência visual leve, foco em usabilidade, feedback instantâneo e interface
 
 ## 🔍 Exemplos Visuais
 
-Exemplo do Componente de Comentários:
-
-![Exemplo do Componente de Comentários](./c58ec6fc-bd28-403a-8a4d-8cf5d847b9e5.png)
-
-*(Adicione outros prints nesta seção, caso desejar)*
+<br>
+<p align="left">
+  <img src="exemplos/image1.png" alt="Exemplo do Componente de Upload" width="600"/>
+  <img src="exemplos/image2.png" alt="Exemplo do Componente de Upload" width="600"/>
+</p>
 
 <br>
 
