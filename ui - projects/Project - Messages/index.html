@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Comentários Interativos</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+  <button id="toggle-dark" class="toggle-mode">
+    <i id="theme-icon" class="ph ph-sun"></i>
+  </button>
+
+  <div class="container">
+    <div class="comment-box resizable" id="comment-box">
+      <div class="drag-header">💬 Nova Mensagem</div>
+
+      <!-- FORMULÁRIO -->
+      <div class="input-section">
+        <!-- Avatar upload -->
+        <div class="avatar-upload">
+          <label for="avatar-input">
+            <img src="assets/image.png" id="preview-avatar" class="avatar" alt="User" />
+          </label>
+          <input type="file" id="avatar-input" accept="image/*" style="display: none;" />
+        </div>
+
+        <!-- Campos de texto -->
+        <div class="fields">
+          <input type="text" id="name-input" placeholder="Seu nome" />
+          <textarea id="comment-input" placeholder="Escreva seu comentário..."></textarea>
+          <input type="file" id="image-input" accept="image/*" />
+        </div>
+      </div>
+
+      <!-- BOTÕES -->
+      <div class="toolbar">
+        <button id="reset-button" class="button secondary">Limpar</button>
+        <button id="submit-button" class="button primary">Publicar</button>
+      </div>
+
+      <!-- COMENTÁRIOS -->
+      <div id="comments-list" class="comments-list"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
