@@ -3,6 +3,7 @@
 ## 📌 Sobre o Projeto
 
 Componente moderno e responsivo para publicação de comentários, inspirado no visual das principais redes sociais.  
+
 Conta com campos otimizados, avatar padrão, suporte a upload de imagens, modo escuro e layout adaptável para desktop e mobile.
 
 Experiência visual leve, foco em usabilidade, feedback instantâneo e interface intuitiva — tudo em HTML, CSS e JS puro, sem frameworks.
