@@ -32,7 +32,13 @@ Interface intuitiva, centralizada e elegante, com experiência fluida e sem fram
 
 ## 🔍 Exemplos Visuais
 
+<p align="left">
+  <img src="exemplos/img1.png" alt="Dashboard Modo Claro" width="700"/>
+</p>
 
+<p align="left">
+  <img src="exemplos/img2png" alt="Dashboard Modo Escuro" width="700"/>
+</p>
 
 <br>
 
