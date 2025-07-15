@@ -8,7 +8,7 @@ Inclui modo escuro com toggle (estilo iOS), avatares, banners de empresas com í
 
 Interface intuitiva, centralizada e elegante, com experiência fluida e sem frameworks — **100% HTML, CSS e JavaScript puros**.
 
----
+<br>
 
 ## 🎯 Objetivos
 
@@ -17,7 +17,7 @@ Interface intuitiva, centralizada e elegante, com experiência fluida e sem fram
 - Demonstrar integração de SVGs e avatares em cards.
 - Facilitar uso e personalização para projetos pessoais, portfólios e squads.
 
----
+<br>
 
 ## 🧩 Funcionalidades
 
@@ -28,17 +28,13 @@ Interface intuitiva, centralizada e elegante, com experiência fluida e sem fram
 - **Botão “Get in Touch”** estilizado.
 - **Código fácil de customizar e sem dependências externas**.
 
----
+<br>
 
 ## 🔍 Exemplos Visuais
 
-| Modo Claro | Modo Escuro |
-|------------|-------------|
-| ![Exemplo Light](COLE_O_LINK_DA_IMAGEM_CLARA_AQUI) | ![Exemplo Dark](COLE_O_LINK_DA_IMAGEM_ESCURO_AQUI) |
 
-<!-- Cole o link direto do GitHub, do Imgur, ou renomeie para arquivos locais se for usar imagens no projeto. -->
 
----
+<br>
 
 ## 📁 Estrutura do Projeto
 
@@ -50,7 +46,7 @@ modern-profile-cards/
 ├── README.md          # Documentação do projeto
 ```
 
----
+<br>
 
 ## 🚀 Como Usar
 
@@ -62,7 +58,7 @@ modern-profile-cards/
 3. Use o switch no topo direito para alternar entre claro/escuro.
 4. Os cards podem ser facilmente adaptados para outros perfis ou empresas editando o `script.js`.
 
----
+<br>
 
 ## 🎨 Personalização
 
@@ -70,13 +66,13 @@ modern-profile-cards/
 - **Perfis, empresas, avaliações:** edite o array no `script.js`.
 - **Estrutura dos cards:** ajuste no `createProfileCard` no JS e no `index.html`.
 
----
+<br>
 
 ## 👩‍💻 Sobre a Autora
 
 Feito com 💜 por Giovana Nunes Schumacher — apaixonada por UI/UX, front-end e interfaces limpas.
 
----
+<br>
 
 ## 📬 Contato
 
