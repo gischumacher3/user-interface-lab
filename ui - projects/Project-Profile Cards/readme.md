@@ -37,7 +37,7 @@ Interface intuitiva, centralizada e elegante, com experiência fluida e sem fram
 </p>
 
 <p align="left">
-  <img src="exemplos/img2png" alt="Dashboard Modo Escuro" width="700"/>
+  <img src="exemplos/img2.png" alt="Dashboard Modo Escuro" width="700"/>
 </p>
 
 <br>
