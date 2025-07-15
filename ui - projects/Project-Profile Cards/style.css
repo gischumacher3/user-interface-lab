@@ -1,0 +1,264 @@
+body {
+  background: #f2f3f7;
+  font-family: 'Inter', Arial, sans-serif;
+  margin: 0;
+  padding: 32px 0;
+  transition: background 0.3s;
+}
+
+/* ---- THEME SWITCH (iOS style, ícone DENTRO do círculo) ---- */
+.theme-switch-wrapper {
+  position: fixed;
+  top: 16px;
+  right: 28px;
+  z-index: 200;
+}
+.theme-switch {
+  display: inline-block;
+  width: 64px;
+  height: 32px;
+  position: relative;
+}
+.theme-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+.theme-switch .slider {
+  background: #e7e7ea;
+  border-radius: 20px;
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  transition: background 0.3s;
+  cursor: pointer;
+}
+.theme-switch input:checked + .slider {
+  background: #232428;
+}
+.theme-switch .slider:before {
+  content: "";
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  width: 26px;
+  height: 26px;
+  background: #232428;
+  border-radius: 50%;
+  transition: transform 0.32s cubic-bezier(.85,-0.25,.29,1.26), background 0.3s;
+  z-index: 1;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.10);
+}
+.theme-switch input:checked + .slider:before {
+  transform: translateX(32px);
+  background: #fff;
+}
+
+/* Ícone SVG DENTRO do círculo */
+.theme-switch .icon {
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  width: 26px;
+  height: 26px;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  transition: left 0.32s cubic-bezier(.85,-0.25,.29,1.26);
+}
+.theme-switch input:checked + .slider .icon {
+  left: 35px;
+}
+.theme-switch .icon svg {
+  width: 18px;
+  height: 18px;
+  display: block;
+}
+
+/* Mostra só a LUA por padrão */
+.theme-switch .icon .sun { display: none; }
+.theme-switch .icon .moon { display: block; }
+/* Quando ativado (checked), mostra só o SOL */
+.theme-switch input:checked + .slider .icon .sun { display: block; }
+.theme-switch input:checked + .slider .icon .moon { display: none; }
+
+@media (max-width: 700px) {
+  .theme-switch-wrapper { top: 8px; right: 7px; }
+  .theme-switch { width: 54px; height: 27px; }
+  .theme-switch .slider:before, .theme-switch .icon { width: 20px; height: 20px; }
+  .theme-switch .icon svg { width: 14px; height: 14px; }
+  .theme-switch input:checked + .slider .icon { left: 22px; }
+}
+
+/* ---- CARDS ---- */
+.profiles-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  gap: 32px;
+  max-width: 1180px;
+  margin: auto;
+  margin-top: 64px;
+}
+.profile-card {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 3px 24px rgba(0,0,0,0.10);
+  overflow: visible;
+  position: relative;
+  width: 370px;
+  min-width: 330px;
+  min-height: 234px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 16px;
+  transition: background 0.3s, box-shadow 0.3s;
+}
+.profile-cover {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+  background: #f2f3f7;
+  display: block;
+}
+.profile-company {
+  position: absolute;
+  top: 16px;
+  right: 20px;
+  background: #635bff;
+  color: #fff;
+  padding: 5px 14px 5px 8px;
+  border-radius: 11px;
+  font-size: 0.97rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(99,91,255,0.12);
+  z-index: 3;
+  gap: 4px;
+}
+.profile-company svg,
+.profile-company img {
+  width: 18px;
+  height: 18px;
+  margin-right: 4px;
+  border-radius: 50%;
+  background: #fff;
+  object-fit: cover;
+  display: inline-block;
+}
+.profile-avatar {
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  object-fit: cover;
+  position: absolute;
+  top: 94px;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.09);
+  background: #fff;
+  z-index: 4;
+}
+.profile-content {
+  padding: 60px 20px 0 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.profile-name {
+  font-size: 1.18rem;
+  font-weight: 700;
+  margin: 18px 0 2px 0;
+  color: #222;
+  text-align: center;
+  letter-spacing: 0.01em;
+}
+.profile-role {
+  color: #b0b0be;
+  font-size: 1.07rem;
+  margin-bottom: 10px;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 0.01em;
+}
+.profile-details {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  margin: 16px 0 0 0;
+  gap: 30px;
+}
+.profile-detail {
+  text-align: center;
+  min-width: 52px;
+}
+.profile-detail .icon {
+  font-size: 1.1rem;
+  margin-bottom: 2px;
+  display: block;
+}
+.profile-detail span {
+  font-weight: 700;
+  color: #333;
+  font-size: 1.01rem;
+}
+.profile-detail small {
+  color: #aaa;
+  font-size: 0.88rem;
+  font-weight: 500;
+  display: block;
+  margin-top: -2px;
+  letter-spacing: 0.01em;
+}
+.profile-actions {
+  width: 100%;
+  margin: 16px auto 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.get-in-touch-btn {
+  width: 44%;
+  background: linear-gradient(90deg, #232428 60%, #46484d 100%);
+  color: #fff;
+  padding: 8px 0;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.99rem;
+  font-weight: bold;
+  letter-spacing: 0.01em;
+  cursor: pointer;
+  margin-top: 2px;
+  transition: filter .13s;
+  box-shadow: 0 2px 8px rgba(40,42,48,0.09);
+}
+.get-in-touch-btn:hover {
+  filter: brightness(1.10);
+}
+
+/* === Dark Mode === */
+body.dark-mode {
+  background: #181a1b;
+}
+body.dark-mode .profile-card {
+  background: #232428;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.34);
+}
+body.dark-mode .profile-content,
+body.dark-mode .profile-name { color: #fff; }
+body.dark-mode .profile-role { color: #9595b2; }
+body.dark-mode .profile-detail span { color: #eaeaea; }
+body.dark-mode .profile-detail small { color: #8a8ca0; }
+body.dark-mode .get-in-touch-btn {
+  background: linear-gradient(90deg, #393c41 60%, #232428 100%);
+  color: #f7f7fb;
+}
+body.dark-mode .profile-company { background: #7b6bff; color: #fff; }
