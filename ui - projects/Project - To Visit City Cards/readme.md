@@ -2,6 +2,7 @@
 
 ## 📌 Sobre o Projeto  
 Componente visual e funcional para exibição de cidades recomendadas para viagem.  
+<br>
 Design moderno, responsivo e interativo, perfeito para blogs, portais de conteúdo, agências de turismo ou qualquer página que queira destacar destinos.  
 <br>
 Cards animados, tags customizadas, sistema de reviews e paginação estilizada, tudo pensado para oferecer uma experiência atrativa, prática e facilmente integrável em qualquer site.
@@ -35,7 +36,10 @@ Exemplo do componente em uso:
 <br>
 
 <p align="left">
-  <img src="./examples/component-example.png" alt="Exemplo do Componente Top Cities" width="600"/>
+  <img src="examples/img1.png" alt="Exemplo do Componente Top Cities" width="600"/>
+</p>
+<p align="left">
+  <img src="examples/img2.png" alt="Exemplo do Componente Top Cities" width="600"/>
 </p>
 
 <br>
