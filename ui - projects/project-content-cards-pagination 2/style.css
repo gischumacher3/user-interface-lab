@@ -1,0 +1,333 @@
+body {
+  background: #f8f9fd;
+  font-family: 'Inter', Arial, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.cities-container {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.7rem;
+  font-weight: 700;
+  margin-bottom: 32px;
+  color: #272444;
+  letter-spacing: -1px;
+}
+
+.cards-wrapper {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.city-card {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 2px 14px 0 rgba(30,34,90,.08);
+  width: 320px;
+  padding: 0 0 18px 0;
+  margin-bottom: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: box-shadow .2s;
+  position: relative;
+  overflow: hidden;
+}
+
+.city-card:hover {
+  box-shadow: 0 6px 28px 0 rgba(30,34,90,.16);
+}
+
+.city-img-box {
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+  border-radius: 18px 18px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.city-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform .35s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.city-card:hover .city-img {
+  transform: scale(1.07);
+}
+
+.city-title {
+  font-size: 1.32rem;
+  font-weight: 600;
+  margin: 16px 0 6px 0;
+  color: #22223b;
+  letter-spacing: -0.5px;
+}
+
+.stars-box {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  margin-bottom: 8px;
+  justify-content: center;
+}
+
+.star-icon {
+  width: 20px;
+  height: 20px;
+  color: #fbbf24;
+  display: inline-block;
+}
+
+.city-desc {
+  color: #333;
+  font-size: 0.98rem;
+  margin: 0 20px 10px 20px;
+  min-height: 48px;
+}
+
+.tags-box {
+  display: flex;
+  gap: 7px;
+  margin-bottom: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.city-tag {
+  background: #f1f2f6;
+  color: #63676b;
+  border-radius: 14px;
+  padding: 4px 11px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.see-more-btn {
+  background: #6246ea;
+  color: #fff;
+  border: none;
+  border-radius: 9px;
+  padding: 8px 24px;
+  font-size: 0.97rem;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 8px;
+  box-shadow: 0 2px 7px 0 rgba(50,40,120,.09);
+  transition: background 0.19s;
+}
+
+.see-more-btn:hover {
+  background: #432fc9;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin: 30px 0 10px 0;
+}
+
+.page-btn,
+.page-num {
+  border: 1.5px solid #e0e0e7;
+  background: #fff;
+  color: #34305e;
+  font-size: 1.07rem;
+  min-width: 38px;
+  height: 38px;
+  border-radius: 8px;
+  margin: 0 2px;
+  cursor: pointer;
+  transition: border-color .15s, color .18s, background .15s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+}
+
+.page-num.active,
+.page-btn.active {
+  border-color: #6246ea;
+  color: #6246ea;
+  font-weight: bold;
+  background: #f2f0ff;
+}
+
+.page-btn[disabled] {
+  opacity: 0.38;
+  cursor: not-allowed;
+}
+
+.cards-slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.slider-arrow {
+  background: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  box-shadow: 0 3px 14px 0 rgba(100,100,180,.10);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin: 0 18px;
+  transition: box-shadow .19s, background .17s;
+  position: relative;
+  z-index: 2;
+}
+
+.slider-arrow .bi {
+  font-size: 2.2rem;
+  color: #6246ea;
+  pointer-events: none;
+}
+
+.slider-arrow:disabled {
+  opacity: 0.38;
+  cursor: not-allowed;
+  background: #f8f8fa;
+}
+
+.arrow-left { order: 1; }
+.cards-wrapper { order: 2; }
+.arrow-right { order: 3; }
+
+/* Centralizar setas verticalmente na lateral do cards-wrapper */
+.cards-slider {
+  position: relative;
+}
+.slider-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.arrow-left {
+  left: -34px; /* Ajuste conforme largura da seta e do container */
+}
+.arrow-right {
+  right: -34px;
+}
+
+/* Responsivo: esconder setas em telas muito pequenas */
+@media (max-width: 650px) {
+  .slider-arrow {
+    display: none;
+  }
+  .cards-wrapper {
+    margin: 0;
+  }
+}
+
+@media (max-width: 990px) {
+  .cards-wrapper {
+    flex-wrap: wrap;
+    gap: 18px;
+  }
+  .city-card {
+    width: 96vw;
+    max-width: 390px;
+  }
+}
+
+
+/* Botão modo dark no canto superior direito */
+.toggle-dark-btn {
+  background: #e2e2ea;
+  color: #22223b;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  position: fixed;
+  top: 32px;
+  right: 38px;
+  z-index: 1000;
+  margin-bottom: 0;
+  box-shadow: 0 2px 7px 0 rgba(50,40,120,.09);
+  transition: background 0.2s, color 0.2s;
+}
+.toggle-dark-btn:hover {
+  background: #6246ea;
+  color: #fff;
+}
+
+/* Modo escuro */
+body.dark-mode {
+  background: #22223b;
+}
+body.dark-mode h1,
+body.dark-mode .city-title {
+  color: #f4f4fc;
+}
+body.dark-mode .cities-container {
+  background: transparent;
+}
+body.dark-mode .city-card {
+  background: #302e4d;
+  color: #e6e6fa;
+  box-shadow: 0 2px 20px 0 rgba(20,10,40,.13);
+}
+body.dark-mode .city-desc,
+body.dark-mode .tags-box {
+  color: #c8cafc !important;
+  background: none !important;
+}
+body.dark-mode .city-tag {
+  color: #c8cafc !important;
+  background: #25234a !important;
+}
+body.dark-mode .stars-box span {
+  color: #e7e1ff !important;
+}
+body.dark-mode .see-more-btn {
+  background: #433ba6;
+  color: #fff;
+}
+body.dark-mode .see-more-btn:hover {
+  background: #2c2176;
+}
+body.dark-mode .pagination,
+body.dark-mode .page-btn,
+body.dark-mode .page-num {
+  background: #29274a;
+  color: #c8cafc;
+  border-color: #37356a;
+}
+body.dark-mode .page-num.active,
+body.dark-mode .page-btn.active {
+  background: #4237b4;
+  border-color: #b8aaff;
+  color: #fff;
+}
+body.dark-mode .slider-arrow {
+  background: #29274a;
+}
+body.dark-mode .slider-arrow .bi {
+  color: #a89ee8;
+}
+.pagination {
+  background: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
