@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Perfil do Mentor</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="profile-card">
+    <div class="banner"></div>
+    <div class="avatar-section">
+      <img src="Images/image.png" alt="Giovana Nunes" class="avatar"/>
+    </div>
+
+    <div class="profile-info">
+      <div class="profile-header">
+        <h2 class="profile-name">
+          Giovana Almeida <span class="verified">✔️</span>
+        </h2>
+        <p class="status"><span class="dot"></span> seguindo</p>
+        <p class="username">@username</p>
+      </div>
+
+      <div class="profile-stats">
+        <div class="stat"><strong>15.463</strong><span>Seguidores</span></div>
+        <div class="stat"><strong>15</strong><span>Seguindo</span></div>
+        <div class="stat"><strong>114</strong><span>Publicações</span></div>
+        <div class="stat"><strong>R$149</strong><span>Valor por hora</span></div>
+      </div>
+
+      <div class="about">
+        <h3>Sobre</h3>
+        <p>Sou desenvolvedora full-stack com 5 anos de experiência no Google. Tenho paixão por tecnologias web modernas e adoro compartilhar meu conhecimento com outras pessoas.</p>
+      </div>
+
+      <div class="tabs">
+        <button class="tab active" onclick="showTab('experience')">Experiência</button>
+        <button class="tab" onclick="showTab('skills')">Habilidades</button>
+        <button class="tab" onclick="showTab('reviews')">Avaliações</button>
+      </div>
+
+      <div class="tab-content">
+        <div id="experience" class="content active">
+          <ul>
+            <li><img src="https://img.icons8.com/color/30/google-logo.png"/> <strong>Google, LLC.</strong> <span>(2020–2025)</span></li>
+            <li><img src="https://img.icons8.com/ios-filled/30/mac-os.png"/> <strong>Apple, Inc.</strong> <span>(2018–2020)</span></li>
+            <li><img src="https://img.icons8.com/color/30/amazon.png"/> <strong>Amazon Web Services</strong> <span>(2015–2016)</span></li>
+            <li><img src="https://img.icons8.com/color/30/microsoft.png"/> <strong>Microsoft</strong> <span>(2013–2015)</span></li>
+            <li><img src="https://img.icons8.com/color/30/facebook.png"/> <strong>Facebook</strong> <span>(2012–2013)</span></li>
+          </ul>
+        </div>
+
+        <div id="skills" class="content">
+          <ul>
+            <li><img src="https://img.icons8.com/color/30/html-5.png"/> HTML, CSS</li>
+            <li><img src="https://img.icons8.com/color/30/javascript--v1.png"/> JavaScript</li>
+            <li><img src="https://img.icons8.com/color/30/react-native.png"/> React</li>
+            <li><img src="https://img.icons8.com/color/30/typescript.png"/> TypeScript</li>
+            <li><img src="https://img.icons8.com/color/30/python.png"/> Python</li>
+            <li><img src="https://img.icons8.com/color/30/nodejs.png"/> Node.js</li>
+            <li><img src="https://img.icons8.com/color/30/mongodb.png"/> MongoDB</li>
+            <li><img src="https://img.icons8.com/color/30/postgreesql.png"/> PostgreSQL</li>
+            <li><img src="https://img.icons8.com/color/30/docker.png"/> Docker</li>
+            <li><img src="https://img.icons8.com/color/30/git.png"/> Git</li>
+          </ul>
+        </div>
+
+        <div id="reviews" class="content">
+          <div class="review">
+            <p><strong>Pedro Schumacher:</strong> Ela é uma mentora fenomenal e uma das profissionais mais inteligentes com quem já tive o prazer de trabalhar. Desde o início, ela ouviu atentamente meus objetivos de carreira e me ajudou a traçar uma estratégia clara para alcançá-los. Suas orientações em entrevistas técnicas, estruturação de projetos e boas práticas de código foram inestimáveis. Ela ainda me ajudou a melhorar meus perfis no LinkedIn e GitHub para refletirem melhor minhas habilidades.<br/><br/>
+            Giovana não apenas dá respostas — ela ensina a pensar de forma crítica e crescer com independência. Seu estilo é firme, mas encorajador, e seu feedback é sempre construtivo e prático. Se você está buscando alguém para impulsionar sua carreira na tecnologia, Giovana é a mentora ideal.</p>
+          </div>
+        </div>
+      </div>
+
+      <button class="mentoring-btn">Agendar Mentoria</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

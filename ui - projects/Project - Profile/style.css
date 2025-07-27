@@ -1,0 +1,204 @@
+* {
+  font-family: 'Inter', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f3f3f3;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  margin: 0;
+}
+
+.profile-card {
+  background: white;
+  width: 520px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 25px rgba(0,0,0,0.1);
+}
+
+.banner {
+  background-image: url('https://images.unsplash.com/photo-1470770841072-f978cf4d019e');
+  background-size: cover;
+  height: 140px;
+}
+
+.avatar-section {
+  text-align: center;
+  margin-top: -60px;
+}
+
+.avatar {
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid white;
+}
+
+.profile-info {
+  padding: 25px;
+}
+
+.profile-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-name {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.verified {
+  color: #4681f4;
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+.status {
+  font-size: 13px;
+  color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin: 5px 0;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  background-color: green;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.username {
+  font-size: 14px;
+  color: gray;
+  margin: 0;
+}
+
+.profile-stats {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.profile-stats .stat {
+  font-size: 14px;
+}
+
+.profile-stats .stat strong {
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+}
+
+.profile-stats .stat span {
+  color: #777;
+  font-size: 13px;
+}
+
+.about {
+  margin-bottom: 20px;
+}
+
+.about h3 {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.about p {
+  font-size: 14px;
+  color: #444;
+  line-height: 1.5;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.tab {
+  flex: 1;
+  padding: 10px;
+  background: #f0f0f0;
+  border: none;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+
+.tab.active {
+  background: white;
+  border-bottom: 3px solid #00bfff;
+  font-weight: bold;
+}
+
+.tab-content .content {
+  display: none;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.tab-content .content.active {
+  display: block;
+}
+
+.tab-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tab-content li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+.tab-content li img {
+  margin-right: 10px;
+}
+
+.tab-content li strong {
+  font-weight: 500;
+}
+
+.tab-content li span {
+  color: #777;
+  margin-left: 5px;
+}
+
+.review {
+  font-size: 14px;
+  color: #444;
+  line-height: 1.6;
+}
+
+.mentoring-btn {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  background: black;
+  color: white;
+  border: none;
+  margin-top: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 6px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
