@@ -2,11 +2,14 @@
 
 ## 📌 Sobre o Projeto  
 Cartão de perfil interativo para mentores e profissionais, com abas de **Experiência**, **Habilidades** e **Avaliações**.
+<br>
 
-Possui layout vertical moderno, visual elegante, conteúdo dinâmico por abas e foco na clareza e na apresentação pessoal ou profissional.  
+Possui layout vertical moderno, visual elegante, conteúdo dinâmico por abas e foco na clareza e na apresentação pessoal ou profissional. 
+<br>
+
 Feito 100% com **HTML, CSS e JavaScript puros**, sem bibliotecas externas.
 
----
+<br>
 
 ## 🎯 Objetivos
 
@@ -17,7 +20,7 @@ Feito 100% com **HTML, CSS e JavaScript puros**, sem bibliotecas externas.
 - Demonstrar navegação por abas com conteúdo dinâmico.
 - Servir como base para componentes em projetos maiores ou portfolios pessoais.
 
----
+<br>
 
 ## 🧩 Funcionalidades
 
@@ -31,7 +34,7 @@ Feito 100% com **HTML, CSS e JavaScript puros**, sem bibliotecas externas.
 - Botão de agendamento de mentoria (estático).
 - 100% HTML, CSS e JS — sem frameworks ou dependências.
 
----
+<br>
 
 ## 🔍 Exemplos Visuais
 
@@ -39,14 +42,12 @@ Exemplo do Painel de Compras:
 <br>
 
 <p align="left">
-  <img src="images/img1.png" alt="Exemplo do Componente de Upload" width="600"/>
-  <img src="images/img2.png" alt="Exemplo do Componente de Upload" width="600"/>
-  <img src="images/img3.png" alt="Exemplo do Componente de Upload" width="600"/>
+  <img src="exemplos/img1.png" alt="Exemplo do Componente de Upload" width="249"/>
+  <img src="exemplos/img2.png" alt="Exemplo do Componente de Upload" width="200"/>
+  <img src="exemplos/img3.png" alt="Exemplo do Componente de Upload" width="217"/>
 </p>
 
 <br>
-
----
 
 ## 📁 Estrutura do Projeto
 
@@ -58,7 +59,7 @@ mentor-profile-card/
 ├── README.md         # Documentação do projeto
 ```
 
----
+<br>
 
 ## 🚀 Como Usar
 
@@ -72,7 +73,7 @@ Abra o arquivo `index.html` no seu navegador.
 
 Navegue pelas abas “Experiência”, “Habilidades” e “Avaliações” para ver o conteúdo mudar dinamicamente.
 
----
+<br>
 
 ## 🎨 Personalização
 
@@ -81,13 +82,13 @@ Navegue pelas abas “Experiência”, “Habilidades” e “Avaliações” pa
 - Você pode trocar logos, textos e cores diretamente no `style.css` para se adequar à identidade visual do seu projeto.
 - Adicione novas abas ou integre com APIs reais facilmente no futuro.
 
----
+<br>
 
 ## 👩‍💻 Sobre a Autora
 
 Feito com 💜 por Giovana Nunes Schumacher — desenvolvedora web e entusiasta de interfaces funcionais, limpas e acessíveis.
 
----
+<br>
 
 ## 📬 Contato
 
