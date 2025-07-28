@@ -36,8 +36,8 @@ Exemplo dos Alertas Ativos:
 <br>
 
 <p align="left">
-  <img src="exemplos/img1.png" alt="Alertas no modo claro" width="600"/>
-  <img src="exemplos/img2.png" alt="Alertas no modo escuro" width="600"/>
+  <img src="exemplos/img2.png" alt="Alertas no modo claro" width="300"/>
+  <img src="exemplos/img1.png" alt="Alertas no modo escuro" width="300"/>
 </p>
 
 <br>
