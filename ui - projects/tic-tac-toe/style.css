@@ -1,0 +1,79 @@
+body {
+  font-family: sans-serif;
+  background: linear-gradient(to right, #b060e9, #c37ff8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  height: 100vh;
+  margin: 0;
+  padding: 20px;
+  color: #fff;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+  margin: 10px;
+}
+
+.menu button {
+  margin: 5px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #ffffff20;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.menu button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  gap: 5px;
+  margin-top: 20px;
+}
+
+.grid div {
+  width: 100px;
+  height: 100px;
+  background: rgba(255, 255, 255, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.red { color: rgb(255, 247, 3); }
+.blue { color: rgb(255, 94, 0); }
+
+.hidden { display: none; }
+
+
+#bot-difficulty h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+#bot-difficulty button {
+  margin: 5px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #ffffff20;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
