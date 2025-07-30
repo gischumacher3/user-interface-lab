@@ -40,8 +40,8 @@ A experiência é otimizada com animações suaves, responsividade para qualquer
 ## 🔍 Exemplos Visuais
 
 <p align="left">
-  <img src="example/img1.png" alt="Menu do Jogo" width="300"/>
-  <img src="example/img2.jpg" alt="Jogo em execução" width="300"/>
+  <img src="examples/img1.png" alt="Menu do Jogo" width="600"/>
+  <img src="examples/img2.png" alt="Jogo em execução" width="600"/>
 </p>
 
 <br>
@@ -58,9 +58,9 @@ tic-tac-toe/
 │   ├── win.mp3
 │   ├── lose.mp3
 │   └── draw.mp3
-└── example/            # Imagens de exemplo
+└── examples/            # Imagens de exemplo
     ├── img1.png
-    └── img2.jpg
+    └── img2.png
 ```
 
 <br>
