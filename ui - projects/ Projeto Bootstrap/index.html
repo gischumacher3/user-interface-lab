@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio - Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Meu Portfólio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="sobre" class="py-5 bg-light">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-4 text-center mb-4 mb-md-0">
+                <img src="img/perfil.jpeg" class="rounded-circle img-fluid shadow-lg" alt="Minha Foto" style="max-width: 250px;">
+            </div>
+            <div class="col-md-8">
+                <h2 class="mb-3">Olá, eu sou a Giovana!</h2>
+                <h5 class="text-muted mb-3">Desenvolvedora e Designer em formação</h5>
+                <p>Sou apaixonada por tecnologia, design e soluções inovadoras. Busco constantemente aprender e aplicar novos conhecimentos em projetos criativos e funcionais.</p>
+                <p>Gosto de trabalhar em equipe, compartilhar experiências e construir resultados que realmente fazem a diferença.</p>
+                <div class="mt-3">
+                    <span class="badge bg-primary me-1 mb-1">Criativa</span>
+                    <span class="badge bg-success me-1 mb-1">Proativa</span>
+                    <span class="badge bg-warning text-dark me-1 mb-1">Organizada</span>
+                    <span class="badge bg-info text-dark me-1 mb-1">Focada</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <section id="projetos" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-5">Meus Projetos</h2>
+
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="img/projeto1.png" class="card-img-top" alt="Projeto 1">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Projeto 1</h5>
+                        <p class="card-text">Um projeto incrível que resolve problemas de forma prática e funcional.</p>
+                        <div class="mb-2">
+                            <span class="badge bg-primary me-1">HTML</span>
+                            <span class="badge bg-success me-1">CSS</span>
+                            <span class="badge bg-warning text-dark">Bootstrap</span>
+                        </div>
+                        <a href="#" class="btn btn-dark mt-auto">Ver Projeto</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="img/projeto2.png" class="card-img-top" alt="Projeto 2">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Projeto 2</h5>
+                        <p class="card-text">Descrição breve do projeto, destacando funcionalidades e objetivo.</p>
+                        <div class="mb-2">
+                            <span class="badge bg-primary me-1">Design UI/UX</span>
+                            <span class="badge bg-success me-1">API</span>
+                        </div>
+                        <a href="#" class="btn btn-dark mt-auto">Ver Projeto</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="img/projeto3.png" class="card-img-top" alt="Projeto 3">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Projeto 3</h5>
+                        <p class="card-text">Um projeto completo com foco em design moderno e responsivo.</p>
+                        <div class="mb-2">
+                            <span class="badge bg-primary me-1">React</span>
+                            <span class="badge bg-success me-1">CSS</span>
+                        </div>
+                        <a href="#" class="btn btn-dark mt-auto">Ver Projeto</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <section id="habilidades" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-4">Habilidades</h2>
+        <div class="row text-center">
+            <div class="col-md-3 mb-3">
+                <div class="p-3 border rounded habilidade">HTML</div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="p-3 border rounded habilidade">CSS</div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="p-3 border rounded habilidade">Java</div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="p-3 border rounded habilidade">Bootstrap</div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="p-3 border rounded habilidade">Design UI/UX</div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="p-3 border rounded habilidade">Excel e Power Bi</div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="p-3 border rounded habilidade">Python</div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="p-3 border rounded habilidade">Docker</div>
+            </div>
+        </div>
+    </div>
+</section>
+    <section id="contato" class="py-5">
+    <div div class="container">
+        <h2 class="text-center mb-4 text-dark">Entre em Contato</h2>
+    <div class="row justify-content-center">
+    <div class="col-md-6">
+    <form>
+    <div class="mb-3">
+    <label for="nome" class="form-label">Nome</label>
+    <input type="text" class="form-control" id="nome" placeholder="Seu nome" required>
+    </div>
+    <div class="mb-3">
+    <label for="email" class="form-label">Email</label>
+    <input type="email" class="form-control" id="email" placeholder="seu@email.com" required>
+    </div>
+    <div class="mb-3">
+    <label for="mensagem" class="form-label">Mensagem</label>
+    <textarea class="form-control" id="mensagem" rows="4" placeholder="Escreva sua mensagem" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-dark w-100">Enviar</button>
+    </form>
+</div>
+</div>
+</div>
+</div>
+</section>
+    <footer id="contato" class="bg-dark text-white text-center py-4">
+        <p class="mb-2">Me encontre nas redes sociais:</p>
+<div class="d-flex justify-content-center gap-3">
+    <a href="hhttps://www.linkedin.com/in/giovana-schumacher/" target="_blank" class="btn btn-light btn-sm">
+        LinkedIn
+    </a>
+    <a href="ttps://github.com/gischumacher3" target="_blank" class="btn btn-light btn-sm">
+        GitHub
+    </a>
+</div>
+        <p class="mt-3 mb-0">© 2025 Giovana • Todos os direitos reservados</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
