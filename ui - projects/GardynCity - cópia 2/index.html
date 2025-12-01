@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GardynCity</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<input type="checkbox" id="menu-toggle" class="menu-toggle">
+
+<header class="header">
+    <div class="header-container">
+
+        <div class="logo-area">
+            <a href="#inicio">
+                <img src="img/logo.png" class="logo-img">
+            </a>
+            <div class="logo-text">
+                <h1>GardynCity</h1>
+                <span>Sustentabilidade & Tech</span>
+            </div>
+        </div>
+
+        <label for="menu-toggle" class="hamburger-btn">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none"
+                stroke="#3a8f6f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <line x1="3" y1="12" x2="21" y2="12"></line>
+                <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+        </label>
+
+        <nav class="navbar">
+            <a href="#inicio" class="nav-item">Início</a>
+            <a href="#sobre" class="nav-item">Sobre</a>
+            <a href="#beneficios" class="nav-item">Benefícios</a>
+            <a href="#aprenda" class="nav-item">Aprenda</a>
+            <a href="#contato" class="nav-item">Contato</a>
+        </nav>
+
+        <div class="divider"></div>
+
+<a href="#popup-participar" class="btn-participar">
+  Participar
+</a>
+
+    </div>
+</header>
+
+<div class="mobile-menu">
+
+    <div class="menu-header">
+        <label for="menu-toggle" class="close-btn">✕</label>
+    </div>
+
+    <nav class="menu-links">
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#beneficios">Benefícios</a>
+        <a href="#aprenda">Aprenda</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <div class="menu-footer">
+        <a href="#popup-participar" class="menu-participar">
+            Participar do Projeto
+        </a>
+    </div>
+
+</div>
+
+    <section class="hero" id="inicio">
+        <div class="hero-content">
+            <h2 class="title">GardynCity</h2>
+            <p class="subtitle">Tecnologia e Natureza para um Futuro Sustentável</p>
+            <p class="descricao">Ensinando cultivo urbano para crianças e comunidades em Barueri</p>
+
+            <a href="#projeto" class="btn-conhecer">Conheça o Projeto</a>
+        </div>
+    </section>
+
+    <section class="sobre" id="sobre">
+        <div class="sobre-container">
+            <div class="sobre-texto">
+                <h2>Sobre o <span>GardynCity</span></h2>
+                <p>O <strong>GardynCity</strong> é uma organização sem fins lucrativos comprometida em transformar comunidades por meio da educação em tecnologia sustentável e cultivo urbano.</p>
+                <p>Nós unimos <strong>inovação</strong>, <strong>sustentabilidade</strong> e <strong>agricultura urbana</strong> para ensinar crianças e jovens a desenvolver soluções inteligentes que tornam o cultivo de alimentos mais acessível, consciente e conectado com o futuro.</p>
+                <p>Nascemos no <strong>CCPL – Centro de Capacitação Profissional e Lazer de Barueri</strong>, e nosso propósito é levar essa iniciativa para toda a comunidade, ampliando oportunidades, despertando o interesse pela tecnologia e fortalecendo a educação ambiental em Barueri.</p>
+
+
+                <div class="card-missao">
+                    <h3>Nossa Missão</h3>
+                    <p>Capacitar comunidades com conhecimento em tecnologia sustentável, criando um futuro mais verde e autossuficiente através da educação prática.</p>
+                </div>
+            </div>
+
+            <div class="sobre-imagem">
+                <img src="img/projeto3.jpg" alt="Crianças aprendendo Arduino e cultivo urbano">
+            </div>
+        </div>
+    </section>
+
+<section class="objetivos" id="beneficios">
+  <div class="obj-container">
+    <h2 class="obj-title">Nossos Objetivos</h2>
+    <p class="obj-subtitle">
+      Transformando vidas através da união entre tecnologia sustentável e educação ambiental
+    </p>
+
+    <div class="obj-grid">
+
+      <div class="obj-card">
+        <div class="obj-icon">
+          <img src="img/folha.png" alt="Educação Sustentável">
+        </div>
+        <h3>Educação Sustentável</h3>
+        <p>Aprendendo a cultivar alimentos de forma consciente e responsável com o meio ambiente.</p>
+      </div>
+
+      <div class="obj-card">
+        <div class="obj-icon">
+          <img src="img/ideia.png" alt="Tecnologia para Crianças">
+        </div>
+        <h3>Tecnologia para Crianças</h3>
+        <p>Introdução ao Arduino e programação através de projetos práticos e divertidos.</p>
+      </div>
+
+      <div class="obj-card">
+        <div class="obj-icon">
+          <img src="img/seguranca-alimentar.png" alt="Segurança Alimentar">
+        </div>
+        <h3>Segurança Alimentar</h3>
+        <p>Capacitando comunidades para produzir seus próprios alimentos saudáveis e nutritivos.</p>
+      </div>
+
+      <div class="obj-card">
+        <div class="obj-icon">
+          <img src="img/grupo.png" alt="Comunidade Verde">
+        </div>
+        <h3>Comunidade Verde</h3>
+        <p>Fortalecendo laços comunitários através de projetos colaborativos sustentáveis.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section class="projeto" id="projeto">
+    <div class="projeto-container">
+
+        <h2 class="projeto-title">Conheça Nosso Projeto</h2>
+        <p class="projeto-subtitle">
+            Veja como estamos transformando a vida de crianças e comunidades através da tecnologia e sustentabilidade
+        </p>
+
+        <div class="projeto-grid">
+
+            <div class="projeto-card">
+                <div class="card-img" style="background-image: url('img/projeto1.jpg');"></div>
+                <div class="card-icon"></div>
+                <div class="card-info">
+                    <h3>Aprendendo Arduino</h3>
+                    <p>Crianças descobrindo o mundo da tecnologia através de eletrônica e programação</p>
+                </div>
+            </div>
+
+            <div class="projeto-card">
+                <div class="card-img" style="background-image: url('img/projeto2.jpg');"></div>
+                <div class="card-icon"></div>
+                <div class="card-info">
+                    <h3>Workshops Comunitários</h3>
+                    <p>Famílias aprendendo juntas sobre cultivo urbano e sustentabilidade</p>
+                </div>
+            </div>
+
+            <div class="projeto-card">
+                <div class="card-img" style="background-image: url('img/projeto3.jpg');"></div>
+                <div class="card-icon"></div>
+                <div class="card-info">
+                    <h3>Mão na Terra</h3>
+                    <p>Atividades práticas de plantio desenvolvendo consciência ambiental</p>
+                </div>
+            </div>
+
+            <div class="projeto-card">
+                <div class="card-img" style="background-image: url('img/projeto4.png');"></div>
+                <div class="card-icon"></div>
+                <div class="card-info">
+                    <h3>CCPL Barueri</h3>
+                    <p>Nossa sede no Centro de Capacitação Profissional e Lazer</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<section class="ensinamos" id="aprenda">
+  <div class="ensinamos-container">
+    <h2 class="ens-title">O que Ensinamos</h2>
+    <p class="ens-subtitle">
+      Conhecimento prático para criar um futuro mais sustentável e tecnológico
+    </p>
+
+    <div class="ens-grid">
+
+      <div class="ens-card">
+        <div class="ens-icon">
+          <img src="img/escudo.png" alt="Ícone Segurança Alimentar">
+        </div>
+        <h3>Segurança Alimentar</h3>
+        <p class="ens-desc">
+          Aprenda técnicas de cultivo que garantem alimentos frescos e livres de agrotóxicos para sua família.
+        </p>
+        <ul class="ens-list">
+          <li>Cultivo orgânico</li>
+          <li>Compostagem caseira</li>
+          <li>Controle natural de pragas</li>
+        </ul>
+      </div>
+
+      <div class="ens-card">
+        <div class="ens-icon">
+          <img src="img/reciclando.png" alt="Ícone Sustentabilidade">
+        </div>
+        <h3>Sustentabilidade</h3>
+        <p class="ens-desc">
+          Descubra como reutilizar materiais e criar sistemas de cultivo eficientes e sustentáveis.
+        </p>
+        <ul class="ens-list">
+          <li>Reciclagem de materiais</li>
+          <li>Economia de água</li>
+          <li>Energia renovável</li>
+        </ul>
+      </div>
+
+      <div class="ens-card">
+        <div class="ens-icon">
+          <img src="img/cultivar.png" alt="Ícone Cultivo Urbano">
+        </div>
+        <h3>Cultivo Urbano</h3>
+        <p class="ens-desc">
+          Transforme pequenos espaços em produtivas hortas verticais usando tecnologia Arduino.
+        </p>
+        <ul class="ens-list">
+          <li>Hortas verticais</li>
+          <li>Hidroponia</li>
+          <li>Automação com sensores</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="contato" id="contato">
+  <div class="contato-container">
+
+    <h2 class="contato-title">Entre em Contato</h2>
+    <p class="contato-subtitle">
+      Venha fazer parte da nossa comunidade sustentável e tecnológica
+    </p>
+
+    <div class="contato-grid">
+      <div class="contato-card">
+        <div class="contato-icon">
+          <img src="img/mapas-e-bandeiras.png" alt="Ícone Localização">
+        </div>
+
+        <h3>Nossa Localização</h3>
+        <p class="contato-desc">
+          CCPL – Centro de Capacitação Profissional e Lazer<br>
+          Barueri, São Paulo
+        </p>
+
+        <div class="contato-mapa">
+          <div class="map-icon">
+          </div>
+          <span>Mapa interativo em breve</span>
+        </div>
+      </div>
+
+      <div class="contato-card">
+        <div class="contato-icon">
+          <img src="img/whatsapp.png" alt="Ícone Contato">
+        </div>
+
+        <h3>Fale Conosco</h3>
+
+        <a href="mailto:contato@gardyncity.org" class="contato-email">
+          contato@gardyncity.org
+        </a>
+
+        <div class="contato-whatsapp">
+          WhatsApp
+        </div>
+
+        <hr class="contato-divider">
+
+        <p class="contato-redes-text">Siga-nos nas redes sociais</p>
+
+        <div class="contato-redes">
+          <div class="rede">
+            <img src="img/instagram.png" alt="Instagram">
+          </div>
+          <div class="rede">
+            <img src="img/tik-tok.png" alt="Facebook">
+          </div>
+          <div class="rede">
+            <img src="img/youtube.png" alt="YouTube">
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<div id="popup-participar" class="popup-overlay">
+
+    <div class="popup-box">
+
+        <a href="#" class="popup-close">&times;</a>
+
+        <h2>💚 Participe do GardynCity</h2>
+        <p>
+            Preencha seus dados e entraremos em contato em breve.
+            Agradecemos seu interesse em fazer parte do nosso projeto!
+        </p>
+
+        <form class="popup-form">
+            <label>Nome completo</label>
+            <input type="text" placeholder="Seu nome">
+
+            <label>E-mail</label>
+            <input type="email" placeholder="seu@email.com">
+
+            <label>Telefone de contato</label>
+            <input type="text" placeholder="(11) 99999-9999">
+
+            <button type="submit" class="btn-enviar">Enviar</button>
+        </form>
+
+    </div>
+
+</div>
+
+<footer class="footer">
+    <div class="footer-container">
+
+        <div class="footer-left">
+            <div class="footer-logo">
+                <div>
+                    <h3>GardynCity</h3>
+                    <span>Tecnologia e Natureza</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-right">
+            <p>© 2024 GardynCity. Todos os direitos reservados.</p>
+            <span>Organização sem fins lucrativos | CCPL Barueri</span>
+        </div>
+
+    </div>
+</footer>
+</body>
+</html>
