@@ -1,6 +1,7 @@
 # user-interface-lab
-💡 Este repositório reúne experimentos e projetos focados no desenvolvimento de interfaces web modernas, acessíveis e visualmente atraentes. 
+💻 Portfólio de projetos acadêmicos e pessoais em desenvolvimento de software.
+
+Reúne aplicações front-end, interfaces modernas e sistemas back-end, desenvolvidos com foco em boas práticas, estruturação de código, resolução de problemas e experiência do usuário.
 
 <br>
 
-Utiliza HTML, CSS, JavaScript e os principais frameworks da atualidade para criar experiências de usuário envolventes e soluções digitais inovadoras. 
